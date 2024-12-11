@@ -6,11 +6,27 @@ The **Which Room API** provides the back-end functionality for the Which Room ap
 
 - RESTful API for managing room availability
 - Integration with Zoom API for real-time updates
-- Secure endpoints with authentication and authorization
+
+## Architecture Diagram
+
+The following diagram illustrates the architecture of the Which Room application:
+
+![Which Room Architecture](images/which-room-arch.jpg)
+
+## Technologies Used
+
+The development and deployment of the Which Room API involve the following skills and technologies:
+
+- **Backend Development**: Java, Spring Boot
+- **Cloud Services**: AWS Lambda, API Gateway
+- **API Integration**: Zoom API
+- **Build Tools**: Maven
+- **Version Control**: GitHub
+- **Deployment**: GitHub Actions workflows for deploying to AWS
 
 ## Prerequisites
 
-Before setting up the API, ensure creating Zoom app following the link below.
+Before setting up the API, ensure creating a Zoom app following the link below.
 https://developers.zoom.us/docs/build-flow/
 
 ## Installation
