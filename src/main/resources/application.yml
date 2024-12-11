@@ -7,3 +7,21 @@ zoom:
     baseurl: https://api.zoom.us/v2/
   accesstoken:
     baseurl: https://zoom.us/oauth/token?grant_type=account_credentials&account_id=
+
+# App confidencial settings
+# Note that these properties should NOT be published.
+settings:
+  # Zoom Owner Account ID
+  accountid: YOUR_ZOOM_ACCOUNT_ID
+  # Zoom App Client ID
+  clientid: ZOOM_APP_CLIENT_ID
+  # Zoom App Client Secret
+  clientsecret: ZOOM_APP_CLIENT_SECRET
+
+  # A Hash Variable to convert the users' PMI(Personal Meeting ID) to a display value.
+  # Key: PMI, Value: Meeting room name to be displayed
+  # The number of key-value pairs matches the number of rooms you manage. 
+  pmitodisplayroomname: 
+    PMI1: Meeting Room 1
+    PMI2: Meeting Room 2
+    PMI3: Meeting Room 3
