@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: which-room-api
+
+zoom:
+  api:
+    baseurl: https://api.zoom.us/v2/
+  accesstoken:
+    baseurl: https://zoom.us/oauth/token?grant_type=account_credentials&account_id=
